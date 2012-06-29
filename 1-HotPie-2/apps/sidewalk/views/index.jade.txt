@@ -1,0 +1,4 @@
+ul
+ each pie in pies
+   li(class=[cssClassPieAge(pie) pie.type])
+    =pie.name
